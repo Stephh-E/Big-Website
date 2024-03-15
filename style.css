@@ -1,0 +1,44 @@
+/* CSS HEX */
+
+:root {
+    --champagne: #fae8c7ff; 
+    --blush: #d26071ff; 
+    --mauve: #dbc2ffff; 
+    --amethyst: #8573bfff; 
+    --onyx: #393d3fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+/* margin 0; */
+
+}
+body {
+    display:flex;
+    flex-direction:column;
+    background-color: var(--champagne);
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    background-color: var(--blush);
+    height: 10dvh;
+    width: 100dvw;
+    text-align: center;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+footer {background-color: var(--amethyst);
+    height: 5dvh
+
+}
+main {
+    min-height: 85dvh;
+
+}
+
