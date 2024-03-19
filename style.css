@@ -10,6 +10,8 @@
     font-family: Arial, Helvetica, sans-serif;
 
 
+
+
 /* margin 0; */
 
 }
@@ -22,12 +24,39 @@ body {
 
 }
 
+a:link, a:visited {
+    background-color: var(--amethyst);
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover {
+    background-color:var(--blush)
+  }
+  
+a {
+    text-decoration: none;
+    background-color: var(--amethyst);
+    word-spacing: 5px;
+ }
+
+
+nav {
+  
+  }
+    
+    
+
+
+
 header {
     background-color: var(--blush);
-    height: 10dvh;
+    height: 22dvh;
     width: 100dvw;
     text-align: center;
-    font-size: x-small;
     display: flex;
     flex-direction: column;
     justify-content: center;
