@@ -15,10 +15,14 @@
 
 body {
     display:flex;
-    flex-direction:column;
+    flex-direction: row;
     background-color: var(--champagne);
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    margin: 0
+
+
+    
   
 
 }
@@ -46,17 +50,18 @@ a {
 nav {
  
   
-  
   }
     
 
 header {
     margin:0;
     padding: 0;
+    position:fixed;
+    top:0;
     background-color: var(--blush);
     height: 15dvh;
     width: 100dvw;
-    max-width: 1250px;
+    max-width: px;
     font-size: x-small;
     text-align: center;
     display: flex;
@@ -71,37 +76,37 @@ footer {
     margin: 0dvh;
     height: 10dvh;
     width: 100dvw;
-    max-width: 1250px;
+    max-width: 2000px;
     text-align: center;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    position:fixed;
+    bottom: 0;
 
 }
 
 main section {
-  max-width: 1250px;
-  margin-left: 1em;
+  margin-top: 7em;
   display:flex;
-  align-content: flex-end;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: 1em
   
-
 }
 
 main img {
-  height: 10dvh;
-  width: 20dvh;
   display:flex;
-  align-content: flex-end;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  height: 25dvh;
+  width: 45dvh;
+  position: absolute;
+  bottom: 60px;
 }
 
 
 
+
   
-
-
-
