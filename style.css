@@ -1,3 +1,4 @@
+
 /* CSS HEX */
 
 :root {
@@ -15,15 +16,12 @@
 
 body {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: var(--champagne);
     justify-content: left;
     align-items: left;
+    text-align: left;
     margin: 0
-
-
-    
-  
 
 }
 
@@ -60,8 +58,7 @@ header {
     top:0;
     background-color: var(--blush);
     height: 15dvh;
-    width: 100dvw;
-    max-width: px;
+    width: 100%;
     font-size: x-small;
     text-align: center;
     display: flex;
@@ -73,38 +70,27 @@ header {
 footer {
 
     background-color: var(--amethyst);
-    margin: 0dvh;
+    margin: 0;
+    padding: 0;
     height: 10dvh;
     width: 100dvw;
     max-width: 2000px;
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:fixed;
-    bottom: 0;
+   
 
 }
 
-main section {
-  margin-top: 7em;
-  display:flex;
-  flex-direction: column;
-  margin-left: 1em
+main {
+  margin-top: 15dvh;
+  margin-left: 2dvh;
+
+}
+
+img {
+
   
+
 }
 
-main img {
-  display:flex;
-  flex-direction: column;
-  justify-content: right;
-  align-items: right;
-  height: 25dvh;
-  width: 45dvh;
-  position: absolute;
-  bottom: 60px;
-}
 
 
 
