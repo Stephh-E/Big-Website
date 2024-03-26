@@ -45,13 +45,6 @@ a {
     word-spacing: 6px;
  }
 
-
-nav {
- 
-  
-  }
-    
-
 header {
     margin:0;
     padding: 0;
@@ -87,21 +80,29 @@ main {
 
 }
 
-img.waving {
-  
+.gif { 
+  margin: 0;
+  padding:0;
+  margin-top: 35dvh;
+  height: 200px;
+  width: 350px;
 
 }
 
-img.flowers {
-  max-width: 200px;
-  
-  
+.flowers {
+  height: 300px;
+  width: 260px;
+
 }
 
-img.jc {
-  max-width: 200px;
+.jc {
+  max-width: 350px;
 }
 
 
 
-  
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-flow: center;
+}
