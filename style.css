@@ -18,9 +18,8 @@ body {
     display:flex;
     flex-direction: column;
     background-color: var(--champagne);
-    justify-content: left;
-    align-items: left;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     min-height: 100vh;
 
@@ -98,11 +97,19 @@ main {
 .jc {
   max-width: 350px;
 }
-
-
-
-.section {
-  display: flex;
-  flex-direction: column;
-  flex-flow: center;
+.container {
+  position: relative;
+  border: 1px dashed black;
+ 
 }
+
+.box {
+  height: 300px;
+  width: 350px;
+  background-color: #dbc2ffff;
+  display:flex;
+  flex-direction: column;
+  
+  
+}
+
