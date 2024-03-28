@@ -68,14 +68,15 @@ footer {
     height: 10dvh;
     width: 100%;
     margin-top: auto;
-  
-  
 
 }
 
 main {
   margin-top: 15dvh;
   margin-left: 2dvh;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 
 }
 
@@ -94,21 +95,34 @@ main {
 
 }
 
-.jc {
-  max-width: 350px;
-}
+
+
 .container {
-  position: relative;
   border: 1px dashed black;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  row-gap: 2em;
+  padding: 2em
+
  
 }
 
 .box {
-  height: 300px;
-  width: 350px;
+  border: 1px dashed black;
+  height: 500px;
+  width: 500px;
   background-color: #dbc2ffff;
   display:flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 2em;
+  row-gap: 0.5em;
+  padding-bottom: 14dvh;
+
   
   
 }
