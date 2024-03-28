@@ -95,8 +95,6 @@ main {
 
 }
 
-
-
 .container {
   border: 1px dashed black;
   display:flex;
@@ -105,14 +103,12 @@ main {
   align-content: center;
   row-gap: 2em;
   padding: 2em
-
- 
 }
 
 .box {
   border: 1px dashed black;
-  height: 500px;
-  width: 500px;
+  height: 390px;
+  width: 390px;
   background-color: #dbc2ffff;
   display:flex;
   flex-direction: column;
@@ -122,8 +118,8 @@ main {
   padding: 2em;
   row-gap: 0.5em;
   padding-bottom: 14dvh;
-
-  
-  
 }
 
+.box:hover {
+  transform: scale(1.1)
+}
